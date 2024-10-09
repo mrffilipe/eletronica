@@ -8,7 +8,7 @@
   Em termos mais práticos, você pode imaginar a tensão como a pressão que empurra os elétrons, assim como a pressão da água em uma mangueira força a água a fluir.
 
   **Unidade**: Volt (V).  
-  **Fórmula**: V = E/Q, onde E é a energia elétrica e Q é a carga elétrica.
+  **Fórmula**: V = E / Q, onde E é a energia elétrica e Q é a carga elétrica.
 
 - **Tensão Contínua (CC)**:  
   Em uma fonte de tensão contínua (DC - Direct Current), a tensão mantém um valor constante ao longo do tempo. Exemplos incluem baterias e células solares.
@@ -22,7 +22,7 @@
   A corrente elétrica é o fluxo de elétrons que se movem através de um condutor devido à tensão aplicada. É o movimento da carga elétrica ao longo do tempo. Quando uma tensão é aplicada a um circuito, os elétrons começam a se mover, criando uma corrente.
 
   **Unidade**: Ampère (A).  
-  **Fórmula**: I = Q/t, onde I é a corrente, Q é a carga que flui, e t é o tempo.
+  **Fórmula**: I = Q / t, onde I é a corrente, Q é a carga que flui, e t é o tempo.
 
 - **Corrente Contínua (CC)**:  
   Em um circuito de corrente contínua (DC), os elétrons fluem sempre na mesma direção, do polo negativo para o polo positivo. Exemplos incluem lanternas alimentadas por baterias.
@@ -36,7 +36,7 @@
   A resistência é a oposição que um material oferece ao fluxo da corrente elétrica. Todo condutor oferece alguma resistência, mas materiais como cobre têm baixa resistência, enquanto isolantes como borracha têm alta resistência. Em circuitos, a resistência é o fator que limita a quantidade de corrente que pode fluir através de um condutor para uma determinada tensão.
 
   **Unidade**: Ohm (Ω).  
-  **Fórmula**: R = V/I, onde R é a resistência, V é a tensão e I é a corrente.
+  **Fórmula**: R = V / I, onde R é a resistência, V é a tensão e I é a corrente.
 
 - **Associação de Resistores**:  
   A resistência total de um circuito depende de como os resistores estão conectados:
