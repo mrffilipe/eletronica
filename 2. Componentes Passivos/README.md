@@ -13,9 +13,9 @@
   
 - **Aplicações Comuns**:
   - **Divisores de Tensão**: Usados para criar uma tensão menor a partir de uma tensão maior. A fórmula do divisor de tensão em resistores é:
-    \[
-    V_{out} = V_{in} \times \frac{R_2}{R_1 + R_2}
-    \]
+    
+    V_out = V_in x (R2 / R1 + R2)
+    
   - **Resistores Pull-up e Pull-down**: Utilizados para garantir que um ponto de entrada (como uma porta de um microcontrolador) esteja sempre em um nível lógico definido, evitando flutuações indesejadas. Um resistor pull-up conecta o ponto à tensão de alimentação (lógica "1"), enquanto um pull-down conecta o ponto ao terra (lógica "0").
 
 ---
@@ -31,10 +31,10 @@
   - **Capacitância**: A capacidade de um capacitor de armazenar carga. A unidade é o Farad (F), mas capacitores geralmente são encontrados em subunidades como microfarads (µF), nanofarads (nF) ou picofarads (pF).
   
   **Fórmula**:
-  \[
-  C = \frac{Q}{V}
-  \]
-  Onde \(C\) é a capacitância, \(Q\) é a carga acumulada e \(V\) é a tensão aplicada.
+  
+  C = Q / V
+  
+  Onde C é a capacitância, Q é a carga acumulada e V é a tensão aplicada.
 
 - **Tipos de Capacitores**:
   - **Capacitores Eletrolíticos**: Usados em circuitos que exigem alta capacitância, mas têm polaridade (devem ser conectados corretamente ao positivo e negativo).
@@ -45,10 +45,10 @@
   - **Capacitor como Filtro**: Utilizado em filtros passa-baixa e passa-alta, permitindo que certas frequências passem e bloqueando outras. Um exemplo é o uso em circuitos de fontes de alimentação para suavizar a tensão após a retificação (conversão de CA para CC).
 
   A fórmula para a impedância do capacitor (resistência que ele oferece à corrente alternada) é dada por:
-  \[
-  X_C = \frac{1}{2\pi f C}
-  \]
-  Onde \(f\) é a frequência e \(C\) é a capacitância.
+  
+  X_C = 1 / 2pi f C
+  
+  Onde f é a frequência e C é a capacitância.
 
 ---
 
@@ -63,10 +63,10 @@
   - **Indutância**: A capacidade de um indutor de armazenar energia em um campo magnético. A unidade é o Henry (H).
   
   **Fórmula**:
-  \[
-  V = L \frac{dI}{dt}
-  \]
-  Onde \(L\) é a indutância, \(V\) é a tensão e \(\frac{dI}{dt}\) é a taxa de variação da corrente ao longo do tempo.
+  
+  V = L x (dl / dt)
+  
+  Onde L é a indutância, V é a tensão e dl / dt é a taxa de variação da corrente ao longo do tempo.
 
 - **Tipos de Indutores**:
   - **Indutores de Núcleo de Ar**: Usados em altas frequências.
@@ -77,7 +77,7 @@
   - **Diodo Flyback**: Indutores são usados em conjunto com diodos flyback em circuitos com cargas indutivas, como motores ou relés, para proteger o circuito contra picos de tensão quando o campo magnético do indutor colapsa.
 
   A fórmula da impedância de um indutor é:
-  \[
-  X_L = 2\pi f L
-  \]
-  Onde \(f\) é a frequência e \(L\) é a indutância.
+  
+  X_L = 2pi f L
+  
+  Onde f é a frequência e L é a indutância.
